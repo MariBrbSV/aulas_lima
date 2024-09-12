@@ -1,0 +1,41 @@
+
+  /* Seletor Universal */
+  * {
+    margin: 0;
+  }
+
+  /* Seletor de tipo, aplicando em uma tag */
+  p {
+    color: blueviolet;
+  }
+
+  /* Seletor de classe */
+  .paragrafo {
+    background-color: rgb(113, 17, 6);
+    margin: 10px 20px 30px 40px; /* Aplica margem top, right, bottom, left */
+    text-align: center;
+  }
+
+  /* Seletor de classe para imagem */
+  .imagem {
+    width: 150px;
+    height: 100px;
+  }
+
+  /* Estilos de tabela */
+  table {
+    border-collapse: collapse;
+    width: 70%;
+    margin: 50px;
+  }
+
+  th, td {
+    /* Define expessura, tipo, cor */
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+  }
+
+  th {
+    background-color: #79adf7;
+  }

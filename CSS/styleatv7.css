@@ -1,0 +1,43 @@
+th {
+    text-align: center;
+    
+}
+
+table {
+    border-collapse: collapse;
+    width: 85%;
+    margin-left: 70px;
+  }
+
+  th, td {
+    /* Define expessura, tipo, cor */
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+  }
+
+  th {
+    background-color: #b0b0b0;
+  }
+
+  .titulo{
+    text-align: center;
+    font-family: 'Snell Roundhand', cursive;
+    font-size: 2rem;
+    color:rgb(46, 46, 46);
+    text-align: center;
+}
+
+  .centralizar{
+    margin-left: 80px;
+  }
+
+  .voltar{
+    text-align: center;
+  }
+
+  .imagem{
+    width: 100px;
+    height: 100px;
+  }
+  
