@@ -40,4 +40,11 @@ table {
     width: 100px;
     height: 100px;
   }
+
+  .botaocomprar {
+    border-radius: 30px 60px;
+    border-color: rgb(255, 255, 255);
+  }
+
+  
   
