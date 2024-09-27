@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="./estilo_flexbox.css">
+
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <h1>Trabalhando com Div</h1>
+    <div class="div1">
+        <h2>Londres</h2>
+        <p style="background-color: aqua;">Londres é a capital da Inglaterra</p>
+        <p>Londres tem 13 milhoes de Habitantes</p>
+        <label for="" class="div2">Texto</label>
+        <h1 class="div2">Texto H1</h1>
+        <label for="" class="div2">Texto2</label>
+    </div>
+    <div class="div2">
+        <h2>Londres</h2>
+        <p>Londres é a capital da Inglaterra</p>
+        <p>Londres tem 13 milhoes de Habitantes</p>
+    </div>
+    <div class="div3">
+        <h2>Londres</h2>
+        <p>Londres é a capital da Inglaterra</p>
+        <p>Londres tem 13 milhoes de Habitantes</p>
+    </div>
+
+    <h1>Trablhando com Flexbox</h1>
+    <p>Utilizamos flexbox para posicionar os elementos de uma linha ou coluna
+        de forma dinâmica
+    </p>
+    <p>Por padrão, os elementos são exibidos em bloco (block)</p>
+    <section class="container">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+    </section>
+
+    <p> Flex Direction - Alterando a direção do elemento</p>
+    <section class="flex">
+        <div class="div-coluna"> 
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUZYCHeITsYGRVCGwJwvjGS4oqVZFzOJJIMA&s">
+            <p> Marina Sena </p>
+        </div>
+        <div class="div-coluna"><img src="https://aloalobahia.com/images/p/senarebate_alo_alo_bahia.jpg"></div>
+        <div class="div-coluna"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0-kUUG02LoNm63E9HjmQ40XijhWG3XHjuSs5vSK63-hLGHKM9-jtTlWUpT1FlwDhUz-c&usqp=CAU"></div>
+        <div class="div-coluna"><img src="https://www.hojeemdia.com.br/image/policy:1.987669.1699647249:1699647249/image.jpg?f=2x1&w=1000&"></div>
+        <div class="div-coluna"><img src="https://diariodonordeste.verdesmares.com.br/image/contentid/policy:1.3373617:1685053181/marina%20sena.JPG?f=16x9&$p$f=dfff3ef"></div>
+    </section>
+
+    <p> Flex Wrap - Faz a quebra do elemento quando não há
+        mais espaço na tela </p>
+
+        <section class="secao"> 
+            <img class="secao-imagem" src="https://i.pinimg.com/236x/4e/c3/8a/4ec38a66ce23fe5110d525d71052ff4c.jpg" alt=""> 
+            <img class="secao-imagem" src="https://i.pinimg.com/236x/4e/c3/8a/4ec38a66ce23fe5110d525d71052ff4c.jpg" alt=""> 
+            <img class="secao-imagem" src="https://i.pinimg.com/236x/4e/c3/8a/4ec38a66ce23fe5110d525d71052ff4c.jpg" alt=""> 
+            <img class="secao-imagem" src="https://i.pinimg.com/236x/4e/c3/8a/4ec38a66ce23fe5110d525d71052ff4c.jpg" alt=""> 
+            <img class="secao-imagem" src="https://i.pinimg.com/236x/4e/c3/8a/4ec38a66ce23fe5110d525d71052ff4c.jpg" alt=""> 
+            <img class="secao-imagem" src="https://i.pinimg.com/236x/4e/c3/8a/4ec38a66ce23fe5110d525d71052ff4c.jpg" alt=""> 
+            <img class="secao-imagem" src="https://i.pinimg.com/236x/4e/c3/8a/4ec38a66ce23fe5110d525d71052ff4c.jpg" alt=""> 
+            <img class="secao-imagem" src="https://i.pinimg.com/236x/4e/c3/8a/4ec38a66ce23fe5110d525d71052ff4c.jpg" alt="">
+            <img class="secao-imagem" src="https://i.pinimg.com/236x/4e/c3/8a/4ec38a66ce23fe5110d525d71052ff4c.jpg" alt=""> 
+            <img class="secao-imagem" src="https://i.pinimg.com/236x/4e/c3/8a/4ec38a66ce23fe5110d525d71052ff4c.jpg" alt=""> 
+            <img class="secao-imagem" src="https://i.pinimg.com/236x/4e/c3/8a/4ec38a66ce23fe5110d525d71052ff4c.jpg" alt=""> 
+            <img class="secao-imagem" src="https://i.pinimg.com/236x/4e/c3/8a/4ec38a66ce23fe5110d525d71052ff4c.jpg" alt="">
+            <img class="secao-imagem" src="https://i.pinimg.com/236x/4e/c3/8a/4ec38a66ce23fe5110d525d71052ff4c.jpg" alt=""> 
+            
+
+        </section>
+
+        <p> Justify - content - Alinha os itens flex no container de acordo com a direção </p>
+        <section class="alinhar esquerda">
+            <img class="secao-imagem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-VJoBs7DQc1slOAGK_4fU6PLpefyS1Q_0EckDcbnTHfdtDb20IJ38D5tupT5eYOBUplA&usqp=CAU">
+            <img class="secao-imagem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-VJoBs7DQc1slOAGK_4fU6PLpefyS1Q_0EckDcbnTHfdtDb20IJ38D5tupT5eYOBUplA&usqp=CAU">
+            <img class="secao-imagem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-VJoBs7DQc1slOAGK_4fU6PLpefyS1Q_0EckDcbnTHfdtDb20IJ38D5tupT5eYOBUplA&usqp=CAU">
+
+        </section>
+
+        <p> Alinhar centro </p>
+        <section class="alinhar-centro">
+            <img class="secao-imagem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-VJoBs7DQc1slOAGK_4fU6PLpefyS1Q_0EckDcbnTHfdtDb20IJ38D5tupT5eYOBUplA&usqp=CAU">
+            <img class="secao-imagem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-VJoBs7DQc1slOAGK_4fU6PLpefyS1Q_0EckDcbnTHfdtDb20IJ38D5tupT5eYOBUplA&usqp=CAU">
+            <img class="secao-imagem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-VJoBs7DQc1slOAGK_4fU6PLpefyS1Q_0EckDcbnTHfdtDb20IJ38D5tupT5eYOBUplA&usqp=CAU">
+
+        </section>
+
+        <p> Alinhar a direita </p>
+        <section class="alinhar-direita">
+            <img class="secao-imagem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-VJoBs7DQc1slOAGK_4fU6PLpefyS1Q_0EckDcbnTHfdtDb20IJ38D5tupT5eYOBUplA&usqp=CAU">
+            <img class="secao-imagem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-VJoBs7DQc1slOAGK_4fU6PLpefyS1Q_0EckDcbnTHfdtDb20IJ38D5tupT5eYOBUplA&usqp=CAU">
+            <img class="secao-imagem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-VJoBs7DQc1slOAGK_4fU6PLpefyS1Q_0EckDcbnTHfdtDb20IJ38D5tupT5eYOBUplA&usqp=CAU">
+
+        </section>
+
+        <p> Alinhar os elementos nos cantos e ajusta ao centro </p>
+        <section class="alinhar-entre">
+            <img class="secao-imagem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-VJoBs7DQc1slOAGK_4fU6PLpefyS1Q_0EckDcbnTHfdtDb20IJ38D5tupT5eYOBUplA&usqp=CAU">
+            <img class="secao-imagem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-VJoBs7DQc1slOAGK_4fU6PLpefyS1Q_0EckDcbnTHfdtDb20IJ38D5tupT5eYOBUplA&usqp=CAU">
+            <img class="secao-imagem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-VJoBs7DQc1slOAGK_4fU6PLpefyS1Q_0EckDcbnTHfdtDb20IJ38D5tupT5eYOBUplA&usqp=CAU">
+
+        </section>
+
+        <p> Alinhar os elementos a partir do espaço ao redor </p>
+        <section class="alinhar-redor">
+            <img class="secao-imagem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-VJoBs7DQc1slOAGK_4fU6PLpefyS1Q_0EckDcbnTHfdtDb20IJ38D5tupT5eYOBUplA&usqp=CAU">
+            <img class="secao-imagem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-VJoBs7DQc1slOAGK_4fU6PLpefyS1Q_0EckDcbnTHfdtDb20IJ38D5tupT5eYOBUplA&usqp=CAU">
+            <img class="secao-imagem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-VJoBs7DQc1slOAGK_4fU6PLpefyS1Q_0EckDcbnTHfdtDb20IJ38D5tupT5eYOBUplA&usqp=CAU">
+        </section>
+
+        <p> Espaçamento usando colunas </p>
+        <section class="alinhar-coluna">
+            <img class="secao-imagem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-VJoBs7DQc1slOAGK_4fU6PLpefyS1Q_0EckDcbnTHfdtDb20IJ38D5tupT5eYOBUplA&usqp=CAU">
+            <img class="secao-imagem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-VJoBs7DQc1slOAGK_4fU6PLpefyS1Q_0EckDcbnTHfdtDb20IJ38D5tupT5eYOBUplA&usqp=CAU">
+            <img class="secao-imagem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-VJoBs7DQc1slOAGK_4fU6PLpefyS1Q_0EckDcbnTHfdtDb20IJ38D5tupT5eYOBUplA&usqp=CAU">
+        </section>
+
+        <section class="alinhar-itens-centro">
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+            <div class="item">Item 4</div>
+        </section>
+
+        <p> Cards usando divs </p>
+        <section class="container-card"> 
+            <article class="card">
+                <header class="cabecalho-card">
+                    <h1 class="titulo-card"> Marina </h1> 
+                    <p class="subtitulo-card"> Sena </p>
+                </header>
+                <figure> 
+                    <img class="imagem-card" src="https://s2-quem.glbimg.com/WGt6WyEH5-W6JZFvIGIxXsFN4HY=/0x0:1292x1012/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_b0f0e84207c948ab8b8777be5a6a4395/internal_photos/bs/2023/J/W/6jA1blTnOilBHPLD1xbg/whatsapp-image-2023-12-31-at-19.34.29.jpeg" alt="">
+                    <figcaption> Marina Sena no Réveillon de Fortaleza</figcaption>
+                </figure>
+                <div class="conteudo-card"> 
+                    <p class="color-text"> "Voltei pra mim, cê sabe o que é bom, onda do mar" </p>
+                </div>
+                <br>
+                <footer class="rodape-card"> 
+                    <a href="" class="botao-card"> 
+                        Saiba Mais
+                    </a>
+
+                </footer>
+                </article>
+                <br>
+
+                <!-- CARD 2 -->
+                <article class="card">
+                    <header class="cabecalho-card">
+                        <h1 class="titulo-card"> Luísa </h1> 
+                        <p class="subtitulo-card"> Sonza </p>
+                    </header>
+                    <figure> 
+                        <img class="imagem-card" src="https://i.pinimg.com/originals/25/ef/c6/25efc624cc911c459c97390004721d50.jpg" alt="">
+                        <figcaption> Show da Luísa Sonza em São Paulo</figcaption>
+                    </figure>
+                    <div class="conteudo-card"> 
+                        <p class="color-text"> "Sagrado amor profano, impuro amor profundo" </p>
+                    </div>
+                    <br>
+                    <footer class="rodape-card"> 
+                        <a href="" class="botao-card"> 
+                            Saiba Mais
+                        </a>
+    
+                    </footer>
+                    </article>
+                    <br>
+
+                    <!-- CARD 3 -->
+                    <article class="card">
+                        <header class="cabecalho-card">
+                            <h1 class="titulo-card"> Thiago </h1> 
+                            <p class="subtitulo-card"> Veigh </p>
+                        </header>
+                        <figure> 
+                            <img class="imagem-card" src="https://static1.purebreak.com.br/articles/4/11/68/44/@/543446-veigh-fingiu-desmaio-durante-performance-700x700-2.jpg" alt="">
+                            <figcaption> Show do Veigh no The Town em São Paulo</figcaption>
+                        </figure>
+                        <div class="conteudo-card"> 
+                            <p class="color-text"> "Meu tempo é dinheiro, por isso que eu tô na pista" </p>
+                        </div>
+                        <br>
+                        <footer class="rodape-card"> 
+                            <a href="" class="botao-card"> 
+                                Saiba Mais
+                            </a>
+        
+                        </footer>
+                        </article>
+                        <br>
+
+                        <!-- CARD 4 -->
+                        <article class="card">
+                            <header class="cabecalho-card">
+                                <h1 class="titulo-card"> Banda </h1> 
+                                <p class="subtitulo-card"> Lagum </p>
+                            </header>
+                            <figure> 
+                                <img class="imagem-card" src="https://i.pinimg.com/736x/71/fe/6b/71fe6ba9c8cb9083ce2ffbb0548a70a4.jpg" alt="">
+                                <figcaption> Show da banda Lagum em Belo Horizonte</figcaption>
+                            </figure>
+                            <div class="conteudo-card"> 
+                                <p class="color-text"> "E eu, que nunca fui exemplo de calma, agora eu tô bem melhor" </p>
+                            </div>
+                            <br>
+                            <footer class="rodape-card"> 
+                                <a href="" class="botao-card"> 
+                                    Saiba Mais
+                                </a>
+            
+                            </footer>
+                            </article>
+                            <br>
+
+                            <article class="card">
+                                <header class="cabecalho-card">
+                                    <h1 class="titulo-card"> Banda </h1> 
+                                    <p class="subtitulo-card"> Lagum </p>
+                                </header>
+                                <figure> 
+                                    <img class="imagem-card" src="https://i.pinimg.com/736x/71/fe/6b/71fe6ba9c8cb9083ce2ffbb0548a70a4.jpg" alt="">
+                                    <figcaption> Show da banda Lagum em Belo Horizonte</figcaption>
+                                </figure>
+                                <div class="conteudo-card"> 
+                                    <p class="color-text"> "E eu, que nunca fui exemplo de calma, agora eu tô bem melhor" </p>
+                                </div>
+                                <br>
+                                <footer class="rodape-card"> 
+                                    <a href="" class="botao-card"> 
+                                        Saiba Mais
+                                    </a>
+                
+                                </footer>
+                                </article>
+                                <br>
+
+                                <article class="card">
+                                    <header class="cabecalho-card">
+                                        <h1 class="titulo-card"> Banda </h1> 
+                                        <p class="subtitulo-card"> Lagum </p>
+                                    </header>i
+                                    <figure> 
+                                        <img class="imagem-card" src="https://i.pinimg.com/736x/71/fe/6b/71fe6ba9c8cb9083ce2ffbb0548a70a4.jpg" alt="">
+                                        <figcaption> Show da banda Lagum em Belo Horizonte</figcaption>
+                                    </figure>
+                                    <div class="conteudo-card"> 
+                                        <p class="color-text"> "E eu, que nunca fui exemplo de calma, agora eu tô bem melhor" </p>
+                                    </div>
+                                    <br>
+                                    <footer class="rodape-card"> 
+                                        <a href="" class="botao-card"> 
+                                            Saiba Mais
+                                        </a>
+                    
+                                    </footer>
+                                    </article>
+                                    <br>
+
+                        </section>
+               
+    
+</body>
+</html>
