@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
 
 
+body {
+    background-color: black;
+}
+
 
 *{
     margin: 0;
@@ -10,6 +14,81 @@
 
 .logo {
     font-family: "Teko";
-    font-size: 50px;
+    font-size: 35px;
+    color:rgb(232, 210, 203);
+    justify-content:space-evenly;
+    margin: 15px;
 }
 
+
+.header {
+    background-color: black;
+    
+}
+
+.texto {
+    color:rgb(240, 248, 255);
+    margin: 28px;
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    gap: 10px;
+    height: 8cap;
+}
+
+
+
+.banner-cafe {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.banner-cafe > img{
+    width: 100%;
+    box-shadow: 10px 0px 20px rgb(0,0,0,0.5);
+    border-radius: 2px;
+    opacity: 0.5;
+}
+
+.banner-novidades {
+    color:azure;
+    max-width: 1120px;
+    height: 60vh;
+    margin:auto;
+    padding: 0rem 2rem;
+    gap: 6rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-conteudo {
+    /* Organizamos o conteudo em coluna */
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.banner-imagens {
+    /* Definir largura máxima */
+    max-width: 55%;
+    /* Exibir as imagens em 4 colunas */
+    column-count: 4;
+}
+
+.banner-imagens > figure > img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.banner-imagens > figure > img:hover {
+    transform: translateY(-5);
+    transform: scale(1.2);
+    box-shadow: 0 8px 12px #d8bd9a
+
+}
