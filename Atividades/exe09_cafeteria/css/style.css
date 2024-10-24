@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Pinyon+Script&display=swap');
 
 body {
     background-color: black;
@@ -10,6 +10,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #ffff;
 }
 
 .logo {
@@ -91,4 +92,166 @@ body {
     transform: scale(1.2);
     box-shadow: 0 8px 12px #d8bd9a
 
+}
+
+/* Criando scrool para cards */
+.card-novo {
+    display: flex;
+    overflow: scroll;
+    gap: 3rem;
+    margin: auto;
+    max-width: 1120px;
+
+}
+
+/* Removendo a barra de scrool */
+.card-novo::-webkit-scrollbar{
+    display: none;
+
+}
+
+.receitas {
+    display: flex;
+    flex-direction: column;
+    max-width: 1120px;
+    padding: 2.5rem 2rem;
+    margin: auto;
+}
+
+.card {
+    margin-left: 40px;
+    border-radius: 10px;
+    border: 1px solid #a29083;
+    box-shadow: 4px 0px 10px #5f492c;
+    max-width: 260px;
+}
+
+.cabecalho-card {
+    background-color: rgb(67, 43, 20);
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.rodape-card {
+    background-color: rgb(67, 43, 20);
+    padding: 3px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.letra {
+    font-family: 'Pinyon Script';
+    font-size: 35px;
+}
+
+button {
+    width: 80px;
+    background-color: rgb(143, 95, 44);
+    color: rgb(231, 214, 196);
+    border-radius: 8px;
+    padding: 4px;
+    text-align: center;
+}
+
+/* -------------------- */
+
+.mapa {
+    max-width: 1120px;
+    width: 600px;
+    height: 400px;
+
+    /* Aplica papel de parede a nossa div */
+
+    background-image: url('../img/image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px auto;
+}
+
+.titulo-mapa {
+    text-align: center;
+    font-family: 'Pinyon Script';
+    font-size: 35px;
+    letter-spacing: .2rem;
+}
+
+.icone {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #5f492c;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.icone-local {
+    width: 5%;
+    height: 5%;
+    justify-content: center;
+}
+
+.icone1 {
+    top: 120px;
+    left: 700px;
+}
+
+.icone2 {
+    top: 180px;
+    left: 820px;
+}
+
+/* Criando um elemento que não irá aparecer na tela */
+.div-hover{
+    /* Escondendo a imagem */
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 500px;
+    height: 400px;
+}
+
+.icone:hover .div-hover {
+    display: block;
+    position: absolute;
+    top: 15%;
+    left: 37%;
+}
+
+/* Estilização - Melhores Avaliados */
+
+.container-galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+    background-color: #ccc;
+}
+
+.item-galeria{
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: #5f492c;
+}
+
+.item-galeria img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: transform 0.3s ease, opacity 0.3 ease;
+}
+
+.item-galeria img:hover {
+    transform: scale(1.1);
 }
