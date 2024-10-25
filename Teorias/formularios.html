@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+<html lang="pt-br"></html>
+
+<style>
+    .formulario {
+        background-color: bisque;
+        width: 1000px;
+        height: 1000px;
+    }
+
+    .input-nome{
+        /* Remove a borda */
+        border: none;
+        border-radius: 5px;
+        margin-left: 10px;
+        opacity: 70%;
+    }
+
+    .botao{
+        background-color: rgb(177, 143, 109);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        border: none;
+        border-radius: 5px;
+        width: 100px;
+        height: 30px;
+        text-shadow: 11px 1px 4px;
+    }
+
+    .checar {
+        margin-left: 50px;
+        width: 20px;
+        height: 18px;
+        cursor: pointer;
+        appearance: none;
+        background-color:aliceblue;
+        border: 1px solid;
+        border-radius: 5px;
+    }
+
+    .checar:checked{
+        background-color:blanchedalmond;
+    }
+
+    .email{
+        width: 300px;
+        padding: 5px 5px;
+        margin-left: 5px;
+        border: 2px solid white;
+    }
+
+    .selecao{
+        appearance: none;
+        width: 300px;
+        padding: 4px;
+        font-size: 16px;
+        color: rgb(94, 67, 49);
+        background-color: #f9f9f9;
+        border: 2px solid rgb(22, 22, 22);
+        border-radius: 5px;
+        cursor: pointer;
+        box-shadow: 0 2px 5px rgb(22, 22, 22);
+
+    }
+
+    .radio {
+        appearance: none;
+        width: 20px;
+        height: 20px;
+        border: 2px solid #d3421d;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    /* Pseudoclasse */
+    .radio:checked{
+        background-color: black;
+        border-color:antiquewhite
+
+    }
+
+</style>
+
+<head></head>
+
+<title> Teoria - 19/09 </title>
+
+<head>
+    <body>
+        <h3> 🥐🥨 Trabalhando com Formulários </h3>
+        <form class="formulario">
+            <label>Nome </label>
+        <!-- Insere um campo digitável do tipo texto -->
+         <input type="text">
+         <br>
+         <br>
+         <label> Sobrenome </label>
+         <input type="text" class="input-nome">
+         <br>
+         <br>
+         <!-- Tipo senha -->
+          <label> Senha </label>
+          <input type="password" placeholder="Digite sua senha">
+          <input href="#" type="button" value="Clique aqui" class="botao">
+        <br>
+        <br>
+        <!-- Incluindo Checkbo(Opções) -->
+         <input type="checkbox" class="checar"> Eu tenho uma bicicleta <br>
+         <input type="checkbox" class="checar"> Eu tenho uma moto <br>
+         <input type="checkbox" class="checar"> Eu tenho um carro <br>
+        
+         <!-- Incluindo input de cor -->
+          <input type="color" value="#000000">
+          <br>  <label> Data de Nascimento </label>
+        
+          <!-- Inserindo data -->
+           <input type="date" id="">
+           <input type="datetime-local" name="" id="">
+
+           <br>
+        <!-- Tipo email -->
+         <br> <input type="email" placeholder="Digite seu email" class="email">
+        
+         <br> 
+         
+         <br> 
+         <!--  Incluindo input para selecionar arquivo -->
+           <input type="file">
+           <br>
+
+           <br>
+        <!-- Input de seleção -->
+         <select>
+            <option value="" selected> Selecione a Escolaridade </option>
+            <option value="Primeiro colegial"> 1º Colegial</option>
+            <option value="Segundo colegial"> 2º Colegial</option>
+            <option value="Terceiro colegial"> 3º Colegial</option>
+        </select>
+
+        <select class="selecao">
+            <option value="" selected> Selecione a Escolaridade </option>
+            <option value="Primeiro colegial"> 1º Colegial</option>
+            <option value="Segundo colegial"> 2º Colegial</option>
+            <option value="Terceiro colegial"> 3º Colegial</option>
+        </select>
+
+        <!-- Criando input radio button -->
+         <p> Radio button</p>
+         <input type="radio" name="tamanho"> Pequeno
+         <input type="radio" name="tamanho"> Médio
+         <input type="radio" name="tamanho"> Grande
+
+
+         <p> Radio button</p>
+         <input type="radio" name="tamanho" class="radio"> Pequeno
+         <input type="radio" name="tamanho" class="radio"> Médio
+         <input type="radio" name="tamanho" class="radio"> Grande
+
+         <!-- Cria um grupo de componentes de formulário -->
+         <fieldset> 
+            <legend> Descrição </legend>
+            <textarea name="" id="">
+
+            </textarea>
+         </fieldset>
+
+         <!-- Botão de enviar -->
+          <input type="submit" value="Enviar">
+
+          <!-- Botão de limpar ou de resetar -->
+           <input type="reset" value="limpar"
+        </form>
+    </body>
+</head>
