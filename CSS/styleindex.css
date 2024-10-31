@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Audiowide&family=Great+Vibes&family=Londrina+Shadow&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.navbar {   
+background: linear-gradient(90deg, rgba(93,224,230,1) 0%, rgba(0,74,173,1) 100%);
+}
+
+.img-logo {
+    height: 40px;
+}
+
+.nav-item {
+    color: aliceblue;
+}
+
+.titulo {
+    text-align: center;
+
+}
+
+.desenv {
+    font-family: "Great Vibes";
+}
+
+.nav-item {
+    font-weight: 400;
+}
+
+.subtitulo {
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    top: -20px;
+}
+
+.titulos {
+    padding: 30px;
+}
+
+.meunome {
+    font-family: "Great Vibes";
+    font-size: 30px;
+
+}
+
