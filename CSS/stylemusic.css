@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Audiowide&family=Great+Vibes&family=Londrina+Shadow&family=Orbitron:wght@400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Audiowide&family=Great+Vibes&family=Londrina+Shadow&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+.cor1 {
+    background-color: #69478f;
+    font-family: "Orbitron";
+    text-align: center;
+}
+
+.cor2 {
+    background-color: #fcde16;
+    font-family: "Orbitron";
+    text-align: center;
+}
+
+.cor3 {
+    background-color: #e07d65;
+    font-family: "Orbitron";
+    text-align: center;
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+}
+
+.centro {
+    font-family: "Raleway";
+    margin: 90px;
+}
+
+.foto {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+.titulo {
+    font-family: "Great Vibes";
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.texto {
+    font-family: "Raleway";
+}
+
+.cor-artistas {
+    color: #69478f;
+    font-weight: bold;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+.borda {
+    border: 30px solid blue;
+}
+
+.roxo {
+    color:  #69478f;
+}
+
+.amarelo {
+    color: #fcde16;
+    font-weight: bold;
+}
+
+.laranja {
+    color: #e07d65;
+}
+
+.gap {
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: #69478f !important;
+}
+
+.fotos-fas {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
